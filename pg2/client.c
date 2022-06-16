@@ -7,7 +7,7 @@
 #include <sys/time.h>
 #include <unistd.h>
 
-void printTimeUsec()
+void printTimeUsec()//输出时间  开始工作
 {
     struct tm *ptm;
     struct timeval time;
@@ -62,7 +62,7 @@ int processAccept(int lisentfd)
     //accept
     printf("accept use ing...\n");
     connfd = accept(lisentfd, (struct sockaddr *)&client, &len);
-    if (connfd == -1)s
+    if (connfd == -1)
     {
         perror("accept");
         return -1;

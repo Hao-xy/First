@@ -42,7 +42,7 @@ int main(int argc, char const *argv[])
         fgets(sendbuf, sizeof(sendbuf), stdin);
         sendbuf[strlen(sendbuf)-1] = '\0';
         send(sockfd, sendbuf, strlen(sendbuf), 0);
-        // printf("=%s=%d==\n", sendbuf, strcmp(sendbuf, "bye"));
+        printf("=%s=%d==\n", sendbuf, strcmp(sendbuf, "bye"));
         if (strcmp(sendbuf, "bye") == 0)
         {
             break;
