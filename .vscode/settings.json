@@ -1,7 +1,11 @@
 {
     "makefile.extensionOutputFolder": "./.vscode",
     "files.associations": {
+        "*.txt": "plaintext",
         "inet.h": "c",
-        "socket.h": "c"
-    }
+        "socket.h": "c",
+        "fcntl.h": "c",
+        "stat.h": "c"
+    },
+    "cmake.sourceDirectory": "${workspaceFolder}/."
 }
