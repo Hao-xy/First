@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jun 23 13:58:15 2022
+# Make data base, printed on Thu Jun 23 21:18:51 2022
 
 # Variables
 
@@ -29,7 +29,7 @@ VSCODE_LOG_NATIVE = false
 # automatic
 @F = $(notdir $@)
 # makefile
-CURDIR := /home/xuyuanhao19001010314/实践
+CURDIR := /home/xuyuanhao19001010314/test1/http-server
 # makefile
 SHELL = /bin/sh
 # environment
@@ -55,7 +55,7 @@ PATH = /home/xuyuanhao19001010314/.vscode-server/bin/57fd6d0195bb9b9d1b49f6da5db
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-e3d13100-bfc5-4a53-9bf8-92bf6c7522ee.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-ba86d25e-9580-4fee-bc74-bfb996e63b68.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -65,7 +65,7 @@ LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-PWD = /home/xuyuanhao19001010314/实践
+PWD = /home/xuyuanhao19001010314/test1/http-server
 # default
 .LOADED := 
 # environment
@@ -79,7 +79,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 LOGNAME = xuyuanhao19001010314
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
@@ -155,9 +155,9 @@ WSL_DISTRO_NAME = Ubuntu
 
 # Directories
 
-# . (device 2064, inode 51176): 14 files, no impossibilities.
+# . (device 2064, inode 90026): 11 files, no impossibilities.
 
-# 14 files, no impossibilities in 1 directories.
+# 11 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -207,12 +207,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 22 / storage = 205 B / avg = 9 B
-# current buf: size = 8162 B / used = 205 B / count = 22 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 19 / storage = 212 B / avg = 11 B
+# current buf: size = 8162 B / used = 212 B / count = 19 / avg = 11 B
 
-# strcache performance: lookups = 25 / hit rate = 12%
+# strcache performance: lookups = 22 / hit rate = 13%
 # hash-table stats:
-# Load=22/8192=0%, Rehash=0, Collisions=1/25=4%
-# Finished Make data base on Thu Jun 23 13:58:15 2022
+# Load=19/8192=0%, Rehash=0, Collisions=1/22=5%
+# Finished Make data base on Thu Jun 23 21:18:51 2022
 
  

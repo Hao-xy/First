@@ -1,4 +1,13 @@
-#include "../util-internal.h"
+/*
+  A trivial static http webserver using Libevent's evhttp.
+
+  This is not the best code in the world, and it does some fairly stupid stuff
+  that you would never want to do in a production webserver. Caveat hackor!
+
+ */
+
+/* Compatibility for possible missing IPv6 declarations */
+#include "util-internal.h"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -6,6 +15,7 @@
 
 #include <sys/types.h>
 #include <sys/stat.h>
+
 #ifdef _WIN32
 #include <winsock2.h>
 #include <ws2tcpip.h>

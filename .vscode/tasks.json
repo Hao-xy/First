@@ -1,7 +1,7 @@
 {
     "tasks": [
         {
-            "type": "cppbuild",
+            "type": "shell",
             "label": "C/C++: gcc-9 生成活动文件",
             "command": "/usr/bin/gcc-9",
             "args": [
@@ -9,7 +9,8 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "- levent"
             ],
             "options": {
                 "cwd": "${fileDirname}"

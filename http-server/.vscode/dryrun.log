@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/xuyuanhao19001010314/test1/http-server'
+make: Leaving directory '/home/xuyuanhao19001010314/test1/http-server'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

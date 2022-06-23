@@ -5,7 +5,9 @@
         "inet.h": "c",
         "socket.h": "c",
         "fcntl.h": "c",
-        "stat.h": "c"
+        "stat.h": "c",
+        "types.h": "c",
+        "util-internal.h": "c"
     },
     "cmake.sourceDirectory": "${workspaceFolder}/."
 }
