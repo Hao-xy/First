@@ -9,7 +9,6 @@
         "args": ["pages"],
         "stopAtEntry": false,
         "cwd": "${workspaceFolder}",
-        "environment": [],
         "externalConsole": false,
         "MIMode": "gdb",
         "setupCommands": [
