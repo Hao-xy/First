@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jun 24 10:52:48 2022
+# Make data base, printed on Mon Jun 27 10:58:07 2022
 
 # Variables
 
@@ -51,11 +51,11 @@ VSCODE_CWD = /mnt/c/Program Files/Microsoft VS Code/_
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/xuyuanhao19001010314/.vscode-server/bin/57fd6d0195bb9b9d1b49f6da5db789060795de47/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/VM/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/jdk11/bin:/mnt/d/al/:/mnt/c/Program Files/Git/cmd:/mnt/d/groovy/bin:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/d/Graphviz/bin:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/d/node_modules:/mnt/c/Users/Administrator/.jdks/azul-13.0.10:/mnt/d/groovy/:/mnt/d/桌面/mingw64/bin:/snap/bin
+PATH = /home/xuyuanhao19001010314/.vscode-server/bin/57fd6d0195bb9b9d1b49f6da5db789060795de47/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/VM/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/jdk11/bin:/mnt/d/al/:/mnt/c/Program Files/Git/cmd:/mnt/d/groovy/bin:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/d/node_modules:/mnt/c/Users/Administrator/.jdks/azul-13.0.10:/mnt/d/groovy/:/mnt/d/桌面/mingw64/bin:/snap/bin
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-adc177f9-9aa6-4fc6-9c38-b159dd8f7cd4.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-7d7d8c3d-3cf7-458a-b17e-c72d2692330c.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -69,7 +69,7 @@ PWD = /home/xuyuanhao19001010314/小学期
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/14_interop
+WSL_INTEROP = /run/WSL/25906_interop
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -213,6 +213,6 @@ GNUmakefile:
 # strcache performance: lookups = 24 / hit rate = 12%
 # hash-table stats:
 # Load=21/8192=0%, Rehash=0, Collisions=1/24=4%
-# Finished Make data base on Fri Jun 24 10:52:48 2022
+# Finished Make data base on Mon Jun 27 10:58:07 2022
 
  

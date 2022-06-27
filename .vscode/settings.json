@@ -7,7 +7,8 @@
         "fcntl.h": "c",
         "stat.h": "c",
         "types.h": "c",
-        "util-internal.h": "c"
+        "util-internal.h": "c",
+        "stdio.h": "c"
     },
     "cmake.sourceDirectory": "${workspaceFolder}/."
 }
