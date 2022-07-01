@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jun 28 22:10:16 2022
+# Make data base, printed on Thu Jun 30 11:35:21 2022
 
 # Variables
 
@@ -55,7 +55,7 @@ PATH = /home/xuyuanhao19001010314/.vscode-server/bin/57fd6d0195bb9b9d1b49f6da5db
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-1f77cb2e-ab9a-4a57-8383-fc4c77e499ad.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-4f6cd201-285c-451b-bf17-2f998a700ae1.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -69,7 +69,7 @@ PWD = /home/xuyuanhao19001010314/小学期/mysql
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/15_interop
+WSL_INTEROP = /run/WSL/14_interop
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -79,7 +79,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 LOGNAME = xuyuanhao19001010314
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
@@ -155,9 +155,9 @@ WSL_DISTRO_NAME = Ubuntu
 
 # Directories
 
-# . (device 2064, inode 90508): 7 files, no impossibilities.
+# . (device 2064, inode 90508): 11 files, no impossibilities.
 
-# 7 files, no impossibilities in 1 directories.
+# 11 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -207,12 +207,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 15 / storage = 133 B / avg = 8 B
-# current buf: size = 8162 B / used = 133 B / count = 15 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 19 / storage = 187 B / avg = 9 B
+# current buf: size = 8162 B / used = 187 B / count = 19 / avg = 9 B
 
-# strcache performance: lookups = 18 / hit rate = 16%
+# strcache performance: lookups = 22 / hit rate = 13%
 # hash-table stats:
-# Load=15/8192=0%, Rehash=0, Collisions=1/18=6%
-# Finished Make data base on Tue Jun 28 22:10:16 2022
+# Load=19/8192=0%, Rehash=0, Collisions=1/22=5%
+# Finished Make data base on Thu Jun 30 11:35:21 2022
 
  

@@ -58,4 +58,3 @@ int main(int argc, char const *argv[])
     return 0;
 }
 
-update user set authentication_string=password("mysql") where user="root";

@@ -17,7 +17,7 @@ int main(int argc, char **argv)
         fprintf(stderr, "%s\n", mysql_error(con));
         exit(1);
     }
-    if (mysql_real_connect(con, "localhost", "root", "11", "cardb", 0, NULL, CLIENT_MULTI_STATEMENTS) == NULL)
+    if (mysql_real_connect(con, "localhost", "root", "11", "zsdb1", 0, NULL, CLIENT_MULTI_STATEMENTS) == NULL)
     {
         finish_with_error(con);
     }
@@ -32,17 +32,17 @@ int main(int argc, char **argv)
         finish_with_error(con);
     }
     //插入数据
-    if (mysql_query(con, "INSERT INTO cars VALUES(1,'Audi431xyc',52642);\
-                        INSERT INTO cars VALUES(2,'Mercedes431xyc',57127);\
-                        INSERT INTO cars VALUES(3,'Skoda431xyc',9000);\
-                        INSERT INTO cars VALUES(4,'Volvo431xyc',29000);\
-                        INSERT INTO cars VALUES(5,'Bentley431xyc',350000);\
-                        INSERT INTO cars VALUES(6,'Citroen431xyc',21000);\
-                        INSERT INTO cars VALUES(7,'Hummer431xyc',41400);\
-                        INSERT INTO cars VALUES(8,'Volkswagen431xyc',21600);"))
+    if (mysql_query(con, "INSERT INTO cars VALUES(1,'Audi314xyh',52642);\
+                        INSERT INTO cars VALUES(2,'Mercedes314xyh',57127);\
+                        INSERT INTO cars VALUES(3,'Skoda314xyh',9000);\
+                        INSERT INTO cars VALUES(4,'Volvo314xyh',29000);\
+                        INSERT INTO cars VALUES(5,'Bentley314xyh',350000);\
+                        INSERT INTO cars VALUES(6,'Citroen314xyh',21000);\
+                        INSERT INTO cars VALUES(7,'Hummer314xyh',41400);\
+                        INSERT INTO cars VALUES(8,'Volkswagen314xyh',21600);"))
     {
         finish_with_error(con);
     }
-    mysql_close(con);
+   
     exit(0);
 }
