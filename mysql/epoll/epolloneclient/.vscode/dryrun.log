@@ -1,5 +1,6 @@
-make --dry-run --keep-going --print-directory
+make --dry-run --always-make --keep-going --print-directory
 make: Entering directory '/home/xuyuanhao19001010314/小学期/mysql/epoll/epolloneclient'
-make: 'clean' is up to date.
+cc     epollone.c   -o epollone
+gcc server.c -o server -levent
 make: Leaving directory '/home/xuyuanhao19001010314/小学期/mysql/epoll/epolloneclient'
  

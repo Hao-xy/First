@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jul  1 09:57:41 2022
+# Make data base, printed on Sun Jul  3 16:51:20 2022
 
 # Variables
 
@@ -51,11 +49,11 @@ VSCODE_CWD = /mnt/c/Program Files/Microsoft VS Code/_
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/xuyuanhao19001010314/.vscode-server/bin/57fd6d0195bb9b9d1b49f6da5db789060795de47/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/VM/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/jdk11/bin:/mnt/d/al/:/mnt/c/Program Files/Git/cmd:/mnt/d/groovy/bin:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/d/node_modules:/mnt/c/Users/Administrator/.jdks/azul-13.0.10:/mnt/d/groovy/:/mnt/d/桌面/mingw64/bin:/snap/bin
+PATH = /home/xuyuanhao19001010314/.vscode-server/bin/57fd6d0195bb9b9d1b49f6da5db789060795de47/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/VM/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/jdk11/bin/bin:/mnt/d/al/:/mnt/c/Program Files/Git/cmd:/mnt/d/groovy/bin:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/d/maven/apache-maven-3.8.6/bin:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/d/node_modules:/mnt/c/Users/Administrator/.jdks/azul-13.0.10:/mnt/d/groovy/:/mnt/d/桌面/mingw64/bin:/mnt/d/jdk11/bin:/snap/bin
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-ce21f38e-dcc7-4ecd-b95c-62ded04ed919.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-0d4622a2-c0c5-4305-bf4a-1190a6be0206.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -79,7 +77,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 LOGNAME = xuyuanhao19001010314
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
@@ -157,9 +155,9 @@ MOTD_SHOWN = update-motd
 
 # Directories
 
-# . (device 2064, inode 147824): 8 files, no impossibilities.
+# . (device 2064, inode 147824): 9 files, no impossibilities.
 
-# 8 files, no impossibilities in 1 directories.
+# 9 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -234,12 +232,14 @@ epollone.c:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 15 / storage = 131 B / avg = 8 B
-# current buf: size = 8162 B / used = 131 B / count = 15 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 16 / storage = 143 B / avg = 8 B
+# current buf: size = 8162 B / used = 143 B / count = 16 / avg = 8 B
 
-# strcache performance: lookups = 27 / hit rate = 44%
+# strcache performance: lookups = 28 / hit rate = 42%
 # hash-table stats:
-# Load=15/8192=0%, Rehash=0, Collisions=1/27=4%
-# Finished Make data base on Fri Jul  1 09:57:41 2022
+# Load=16/8192=0%, Rehash=0, Collisions=1/28=4%
+# Finished Make data base on Sun Jul  3 16:51:20 2022
 
  
+make: *** No rule to make target 'all'.  Stop.
+

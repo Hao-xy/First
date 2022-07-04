@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/xuyuanhao19001010314/小学期/mysql/epoll/epollmore'
+make: 'clean' is up to date.
+make: Leaving directory '/home/xuyuanhao19001010314/小学期/mysql/epoll/epollmore'
+ 
