@@ -92,7 +92,7 @@ int main(int argc, char const *argv[])
     {
         read_fd_set = static_fd_set;
         int num;
-        if (num = select(nfds, &read_fd_set, NULL, NULL, NULL) > 0)
+        if (num = select(nfds, &read_fd_set, NULL, NULL, NULL) > 0)//IO复用
         {
             printf("mun=%d ", num);
             printf("nfds=%d\n", nfds);

@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/xuyuanhao19001010314/小学期/mysql/libevent+mysql'
+gcc epollmoreclient.c -o epollmoreclient
+gcc libevent_mysql.c -o libevent_mysql  -levent  -lmysqlclient
+make: Leaving directory '/home/xuyuanhao19001010314/小学期/mysql/libevent+mysql'
+ 

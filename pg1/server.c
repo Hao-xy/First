@@ -58,7 +58,7 @@ int processAccept(int lisentfd)
     int len = sizeof(client);
 
     //accept
-    printf("accept zuse ing...\n");
+    printf("accept use ing...\n");
     connfd = accept(lisentfd, (struct sockaddr *)&client, &len);
     if (connfd == -1)
     {

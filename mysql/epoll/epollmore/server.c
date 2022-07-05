@@ -70,6 +70,7 @@ void read_callback(evutil_socket_t fd, short ev, void *user_arg)
     int nbytes;
     char sendbuf[BUFFER_SIZE] = {0};
     //接收 client
+    printTimeUsec();
     if ((nbytes = recv(fd, buffer, BUFFER_SIZE, 0)) > 0)
     {
         fprintf(stdout, "fd:%d %s : %d read:%d(bytes) recv content:%s\n", fd, inet_ntoa(clients[fd].sin_addr), clients[fd].sin_port, nbytes, buffer);

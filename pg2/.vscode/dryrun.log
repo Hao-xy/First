@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/xuyuanhao19001010314/小学期/pg2'
+gcc server.c -o server
+gcc client.c -o client
+make: Leaving directory '/home/xuyuanhao19001010314/小学期/pg2'
+ 

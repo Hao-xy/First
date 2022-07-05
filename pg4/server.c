@@ -13,7 +13,7 @@
 //定义了很多宏和open,fcntl函数原型
 #include <fcntl.h>
 //包含了许多UNIX系统服务的函数原型，例如read函数、write函数和getpid函数
-#include <event2/event.h>
+#include <event2/event.h>//基于libevent
 
 
 #define BUFFER_SIZE 5005
@@ -56,6 +56,7 @@ void accept_client(evutil_socket_t fd, short ev, void *user_arg)
         perror("accept");
         exit(1);
     }
+    printTimeUsec();
     printf("一个客户端已经连接fd=%d\n", connfd);
 
     struct event* read_event = event_new(user_arg, connfd, EV_READ | EV_PERSIST, read_callback, (void*)user_arg);

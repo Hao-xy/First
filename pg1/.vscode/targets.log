@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jul  5 18:48:23 2022
+# Make data base, printed on Tue Jul  5 17:08:58 2022
 
 # Variables
 
@@ -24,20 +22,24 @@ WSLENV = VSCODE_WSL_EXT_LOCATION/up
 VSCODE_LOG_NATIVE = false
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'makefile', line 2)
+C = client
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # automatic
 @F = $(notdir $@)
 # makefile
-CURDIR := /home/xuyuanhao19001010314/小学期
+CURDIR := /home/xuyuanhao19001010314/小学期/pg1
 # makefile
 SHELL = /bin/sh
+# makefile (from 'makefile', line 1)
+S = server
 # environment
 VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_translationsConfigFile":"/home/xuyuanhao19001010314/.vscode-server/data/clp/bbca1a7059cee8a1b93da8947fee1c4f.zh-cn/tcf.json","_cacheRoot":"/home/xuyuanhao19001010314/.vscode-server/data/clp/bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_resolvedLanguagePackCoreLocation":"/home/xuyuanhao19001010314/.vscode-server/data/clp/bbca1a7059cee8a1b93da8947fee1c4f.zh-cn/57fd6d0195bb9b9d1b49f6da5db789060795de47","_corruptedFile":"/home/xuyuanhao19001010314/.vscode-server/data/clp/bbca1a7059cee8a1b93da8947fee1c4f.zh-cn/corrupted.info","_languagePackSupport":true}
 # environment
 _ = /home/xuyuanhao19001010314/.vscode-server/bin/57fd6d0195bb9b9d1b49f6da5db789060795de47/node
-# makefile
-MAKEFILE_LIST := 
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST :=  makefile
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
@@ -55,7 +57,7 @@ PATH = /home/xuyuanhao19001010314/.vscode-server/bin/57fd6d0195bb9b9d1b49f6da5db
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-3b0131ad-51c2-40b2-97d2-445ff7045003.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-1f3d9880-176c-4a1f-9edd-ff52b2ccb255.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -65,7 +67,7 @@ LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-PWD = /home/xuyuanhao19001010314/小学期
+PWD = /home/xuyuanhao19001010314/小学期/pg1
 # default
 .LOADED := 
 # environment
@@ -79,7 +81,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 LOGNAME = xuyuanhao19001010314
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
@@ -97,7 +99,7 @@ MAKE_VERSION := 4.2.1
 # environment
 USER = xuyuanhao19001010314
 # makefile
-.DEFAULT_GOAL := 
+.DEFAULT_GOAL := all
 # environment
 NAME = hao
 # automatic
@@ -147,7 +149,7 @@ VSCODE_EXTHOST_WILL_SEND_SOCKET = true
 # environment
 WSL_DISTRO_NAME = Ubuntu
 # variable set hash-table stats:
-# Load=67/1024=7%, Rehash=0, Collisions=4/89=4%
+# Load=69/1024=7%, Rehash=0, Collisions=4/100=4%
 
 # Pattern-specific Variable Values
 
@@ -155,9 +157,9 @@ WSL_DISTRO_NAME = Ubuntu
 
 # Directories
 
-# . (device 2064, inode 51176): 15 files, no impossibilities.
+# . (device 2064, inode 44545): 8 files, no impossibilities.
 
-# 15 files, no impossibilities in 1 directories.
+# 8 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -165,26 +167,42 @@ WSL_DISTRO_NAME = Ubuntu
 
 # Files
 
-# Not a target:
-all:
+all: server client
 #  Command line target.
 #  Implicit rule search has been done.
 #  File does not exist.
-#  File has not been updated.
-
-# Not a target:
-Makefile:
-#  Implicit rule search has been done.
-#  File does not exist.
 #  File has been updated.
-#  Failed to be updated.
+#  Successfully updated.
+
+client: client.c
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-05 12:15:33.8862797
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 9):
+	gcc $^  -o $@
+
+server: server.c
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-05 12:15:33.7862797
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 7):
+	gcc $^  -o $@
 
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  File does not exist.
+#  Last modified 2022-06-14 12:32:51.6023599
 #  File has been updated.
-#  Failed to be updated.
+#  Successfully updated.
+
+# Not a target:
+client.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-14 17:11:27.5223599
+#  File has been updated.
+#  Successfully updated.
 
 # Not a target:
 .DEFAULT:
@@ -193,26 +211,33 @@ makefile:
 #  File has not been updated.
 
 # Not a target:
-GNUmakefile:
+server.c:
 #  Implicit rule search has been done.
-#  File does not exist.
+#  Last modified 2022-07-05 12:15:24.5462797
 #  File has been updated.
-#  Failed to be updated.
+#  Successfully updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 11):
+	rm $(S) $(C)  -rf
 
 # files hash-table stats:
-# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# Load=9/1024=1%, Rehash=0, Collisions=0/26=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 23 / storage = 213 B / avg = 9 B
-# current buf: size = 8162 B / used = 213 B / count = 23 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 14 / storage = 115 B / avg = 8 B
+# current buf: size = 8162 B / used = 115 B / count = 14 / avg = 8 B
 
-# strcache performance: lookups = 26 / hit rate = 11%
+# strcache performance: lookups = 29 / hit rate = 51%
 # hash-table stats:
-# Load=23/8192=0%, Rehash=0, Collisions=1/26=4%
-# Finished Make data base on Tue Jul  5 18:48:23 2022
+# Load=14/8192=0%, Rehash=0, Collisions=1/29=3%
+# Finished Make data base on Tue Jul  5 17:08:58 2022
 
  

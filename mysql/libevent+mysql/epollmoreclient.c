@@ -9,7 +9,7 @@
 
 int main(int argc, char const *argv[])
 {
-    printf("client start!!!!\n");
+    printf("client start!\n");
     int sockfd;
     struct sockaddr_in server_addr;
 
@@ -38,7 +38,7 @@ int main(int argc, char const *argv[])
 
     while (1)
     {
-        printf("input a string:");
+        printf("input(like account/password):");
         fgets(sendbuf, sizeof(sendbuf), stdin);
         sendbuf[strlen(sendbuf)-1] = '\0';
         send(sockfd, sendbuf, strlen(sendbuf), 0);
@@ -49,12 +49,18 @@ int main(int argc, char const *argv[])
 
         int num;
         num = recv(sockfd, buf, 5005, 0);
-        printf("recv:%s recvLen:%d\n", buf, num);
+        if (strcmp(buf, "1") == 0)
+        {
+            printf("success!\n");
+        }else if (strcmp(buf, "1") != 0){
+            printf("fail!\n");
+        }
+        // printf("recv:%s recvLen:%d\n", buf, num);
         bzero(sendbuf, strlen(sendbuf));
         bzero(buf, strlen(buf));
     }
 
     close(sockfd);
-    printf("\n\n\n\n\n");
+    printf("\n");
     return 0;
 }
