@@ -54,7 +54,7 @@ int main(int argc, char const *argv[])
     listenfd = socket(AF_INET, SOCK_STREAM, 0);
     if (listenfd == -1) // socket fail
     {
-        perror("socket");
+        perror("socket fail");
         exit(1);
     }
     printf("listenfd=%d\n", listenfd);
